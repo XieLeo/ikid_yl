@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ikid_ws2/devel
+
+Name: localization_pkg
+Description: Description of localization_pkg
+Version: 0.0.0
+Cflags: -I/home/nvidia/ikid_ws2/devel/include -I/home/nvidia/ikid_ws2/src/localization/localization_pkg/include
+Libs: -L${prefix}/lib 
+Requires: 

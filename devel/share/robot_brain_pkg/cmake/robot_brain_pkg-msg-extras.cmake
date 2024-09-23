@@ -1,0 +1,2 @@
+set(robot_brain_pkg_MESSAGE_FILES "/home/nvidia/ikid_ws2/src/robot_brain_pkg/msg/robot_head_pos.msg;/home/nvidia/ikid_ws2/src/robot_brain_pkg/msg/image_points.msg;/home/nvidia/ikid_ws2/src/robot_brain_pkg/msg/calculate_position_result.msg;/home/nvidia/ikid_ws2/src/robot_brain_pkg/msg/head_contol_by_brain.msg;/home/nvidia/ikid_ws2/src/robot_brain_pkg/msg/cmd_walk.msg")
+set(robot_brain_pkg_SERVICE_FILES "")

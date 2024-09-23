@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ikid_ws2/install
+
+Name: config_server
+Description: Description of config_server
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lconfig_client
+Requires: 

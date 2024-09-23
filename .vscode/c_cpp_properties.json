@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nvidia/bitbots/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/bitbots_misc/bitbots_pixel_visualizer/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/bitbots_motion/bitbots_quintic_walk/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/bitbots_lowlevel/bitbots_ros_control/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/bitbots_motion/bitbots_splines/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/lib/DspSDK/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/lib/DynamixelSDK/ros/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/lib/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/humanoid_league_misc/humanoid_league_team_communication/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/new_tf/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/lib/particle_filter/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/lib/rot_conv_lib/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/usb_cam/include/**",
+        "/home/nvidia/bitbots/src/bitbots_meta/wolves_image_provider/include/**",
+        "/usr/include/**",
+        "/usr/include/Eigen/**",
+        "/home/nvidia/ikid_ws2/src/ros_socket/include/**",
+        "/home/nvidia/ikid_ws2/src/ikid_motion_control/include/**",
+        "/home/nvidia/ikid_ws2/src/ikid_key_ctrl/include/**",
+        "/home/nvidia/ikid_ws2/devel/include/**",
+        "/home/nvidia/ikid_ws2/build/ros_qt_ikid",
+        "/home/nvidia/ikid_ws2/src/calculate_position_pkg/include/**",
+        "/home/nvidia/ikid_ws2/src/robot_brain_pkg/include/**",
+        "/home/nvidia/ikid_ws2/src/worker_brain_pkg/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

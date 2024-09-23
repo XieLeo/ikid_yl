@@ -1,0 +1,15 @@
+field:
+  magneticHeading: 0.301017820835
+  # magneticHeading: 0
+localization_pkg_node:
+  localization:
+    usd_odom: flase
+  observation:
+    alpha_uniform_base: 0.2
+    std_angle: 0.2
+    std_compass: 0.785398
+    std_distance: 0.5
+soccer_vision_stream:
+  landmark_filter_dist:
+    x: 0.09
+    y: 0.13

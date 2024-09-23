@@ -1,0 +1,8 @@
+prefix=/home/nvidia/ikid_ws2/devel
+
+Name: ikid_motion_control
+Description: Description of ikid_motion_control
+Version: 0.0.0
+Cflags: -I/home/nvidia/ikid_ws2/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

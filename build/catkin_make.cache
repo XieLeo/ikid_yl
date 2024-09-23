@@ -1,0 +1,2 @@
+calculate_position_pkg:game_controller:ikid_key_ctrl:ikid_motion_control:ikid_robot:localization/config_server:localization/localization_pkg:realtime_detect_pkg:robot_brain_pkg:ros_socket:site_inspection:wit_ros_imu:worker_brain_pkg
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/ikid_ws2/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/ikid_ws2/install -G Unix Makefiles

@@ -1,0 +1,9 @@
+<launch>
+  	<param name="/use_sim_time" value="false" />
+	<node pkg="config_server" type="config_server" name="config_server" output="screen" />
+	<node pkg="localization_pkg" type="localization_pkg_node" name="localization_pkg_node" output="screen" />
+
+	<node pkg="nodelet" type="nodelet" name="soccer_vision_stream" args="standalone SoccerVision vision" output="screen">
+		<param name="use_gui" value="false" />
+	</node>
+</launch>

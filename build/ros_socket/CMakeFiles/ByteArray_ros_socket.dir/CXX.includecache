@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/ikid_ws2/src/ros_socket/include/ros_socket/ByteArray.h
+cstdint
+-
+cstddef
+-
+cstdio
+-
+vector
+-
+stdexcept
+-
+functional
+-
+
+/home/nvidia/ikid_ws2/src/ros_socket/src/source/ByteArray.cpp
+ros_socket/ByteArray.h
+/home/nvidia/ikid_ws2/src/ros_socket/src/source/ros_socket/ByteArray.h
+algorithm
+-
+cstring
+-
+

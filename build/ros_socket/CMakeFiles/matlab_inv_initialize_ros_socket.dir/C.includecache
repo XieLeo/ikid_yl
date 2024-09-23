@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/ikid_ws2/src/ros_socket/include/ros_socket/matlab_inv_initialize.h
+ros_socket/rtwtypes.h
+/home/nvidia/ikid_ws2/src/ros_socket/include/ros_socket/ros_socket/rtwtypes.h
+stddef.h
+-
+stdlib.h
+-
+
+/home/nvidia/ikid_ws2/src/ros_socket/include/ros_socket/rtwtypes.h
+ros_socket/tmwtypes.h
+/home/nvidia/ikid_ws2/src/ros_socket/include/ros_socket/ros_socket/tmwtypes.h
+
+/home/nvidia/ikid_ws2/src/ros_socket/include/ros_socket/tmwtypes.h
+mwstdint.h
+/home/nvidia/ikid_ws2/src/ros_socket/include/ros_socket/mwstdint.h
+limits.h
+-
+stdbool.h
+-
+float.h
+-
+stddef.h
+-
+
+/home/nvidia/ikid_ws2/src/ros_socket/src/source/matlab_inv_initialize.c
+ros_socket/matlab_inv_initialize.h
+/home/nvidia/ikid_ws2/src/ros_socket/src/source/ros_socket/matlab_inv_initialize.h
+

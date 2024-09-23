@@ -1,0 +1,37 @@
+# pid参数
+imu_roll_p: 0.02
+imu_roll_i: 0  
+imu_roll_d: 0.02  
+imu_pitch_p: 0.02
+imu_pitch_i: 0 # 0.1
+imu_pitch_d: 0.03  # 0.1
+imu_yaw_p: 1 # 未使用
+imu_yaw_i: 0 # 未使用
+imu_yaw_d: 5 # 未使用
+
+imu_com_x_p: 0
+imu_com_x_i: 0
+imu_com_x_d: 0
+imu_com_y_p: 0
+imu_com_y_i: 0
+imu_com_y_d: 0
+
+com_const_x_compen: 0
+com_const_y_compen: 0
+
+
+# foot length width m foot width 0.65*2
+walk_length: 0.1
+walk_width: 0.13
+# foot hight of the robot
+foot_hight: 0.07
+
+# the frame time sent to control board s
+# walk_frame_T: 0.019
+walk_frame_T: 0.02
+
+# pre-load centroid hight m
+c_h_para: 0.35
+
+# local ip address
+local_ip_addr: '192.168.1.14'

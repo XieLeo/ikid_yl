@@ -1,0 +1,7 @@
+<library path="lib/libvision_detection">
+	<class type="SoccerVision" base_class_type="nodelet::Nodelet">
+		<description>
+			Visoin Detection
+		</description>
+	</class>
+</library>
